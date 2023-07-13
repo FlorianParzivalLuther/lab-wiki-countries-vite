@@ -1,3 +1,18 @@
-function Navbar() {}
+import React from 'react'
 
-export default Navbar;
+const Navbar = () => {
+  return (
+    <div>
+
+<nav className="navbar navbar-light bg-primary">
+  <a className="navbar-brand" href="#">
+  WikiCountries
+  </a>
+</nav>
+
+        
+    </div>
+  )
+}
+
+export default Navbar
